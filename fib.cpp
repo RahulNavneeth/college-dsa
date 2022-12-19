@@ -36,11 +36,11 @@ int main()
                     sum += b;
                 }
             }
-            cout << "SUM OF EVEN FIB VALUE: " << sum << endl;
+            cout << "SUM OF EVEN FIB VALUES : " << sum << endl;
         }
         else
         {
-            cout << "Invalid Input";
+            cout << "Invalid Input" << endl;
         }
     }
 }
