@@ -3,9 +3,16 @@ using namespace std;
 
 int main()
 {
+
+    // TIME COMPLEXITY  -> o(N) * o(N) -> o(N^2)
+    // SPACE COMPLEXITY -> o(1)
+
     int r;
     cout << "ENTER NO.OF TEST CASES : ";
     cin >> r;
+
+    // o(N)
+
     for (int i = 0; i < r; i++)
     {
         int n;
@@ -16,6 +23,9 @@ int main()
 
             int a = 0, b = 1;
             int sum = 0;
+
+            // o(N)
+
             for (int j; j < n - 1; j++)
             {
                 int tmp = b;
