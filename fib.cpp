@@ -26,7 +26,7 @@ int main()
 
             // o(N)
 
-            for (int j; j < n - 1; j++)
+            while (b <= n)
             {
                 int tmp = b;
                 b = a + b;
@@ -40,7 +40,7 @@ int main()
         }
         else
         {
-            cout << "Invalid Input" << endl;
+            cout << "INVALID INPUT" << endl;
         }
     }
 }
